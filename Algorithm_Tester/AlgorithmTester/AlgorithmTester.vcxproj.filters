@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ABCUCourse.cpp" />
+    <ClCompile Include="BinarySearchTree.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="sqlite\sqlite3.c" />
+    <ClCompile Include="DatabaseHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ABCUCourse.h" />
+    <ClInclude Include="BinarySearchTree.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="sqlite\sqlite3.h" />
+    <ClInclude Include="DatabaseHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\CS 300 ABCU_Advising_Program_Input.csv" />
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
